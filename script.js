@@ -38,12 +38,15 @@ let getRandomColor = () => {
   return color;
 };
 
-initButton.addEventListener('click', () => {
+let changeSize = () => {
   let size = Number(prompt('Enter size !'));
   if (size === 0 || size === NaN) {
-    gridContainer.remove();
+    alert('Enter a number of new grid');
+    changeSize();
   } else {
     setGridSize(size);
-    fillGrid;
+    fillGrid(size);
   }
-});
+};
+
+initButton.addEventListener('click', changeSize);
