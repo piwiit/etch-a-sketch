@@ -1,0 +1,29 @@
+{
+  "name": "etch-a-sketch",
+  "version": "1.0.0",
+  "description": "Etch a sketch game created with HTML, CSS and JS.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix-js": "eslint-auto-fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piwiit/etch-a-sketch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piwiit/etch-a-sketch/issues"
+  },
+  "homepage": "https://github.com/piwiit/etch-a-sketch#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-auto-fix": "^1.0.3"
+  }
+}
