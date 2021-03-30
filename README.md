@@ -11,11 +11,15 @@ Project to create something like [etch-a-sketch](https://en.wikipedia.org/wiki/E
 - CSS
 - JS
 
-# Tools
+## Tools
 
 - Visual Studio Code
 - Linux terminal
 - Git and GitHub
+
+## Third party code
+
+- [Google Font](https://fonts.google.com/)
 
 # Outcome
 
@@ -28,6 +32,6 @@ Project to create something like [etch-a-sketch](https://en.wikipedia.org/wiki/E
 
 ## What I learned
 
-- better knowledge og **javaScript**.
+- better knowledge of **javaScript**.
 - Improved **code structure** and **code readability**.
 - Improved **clean code** writing.
